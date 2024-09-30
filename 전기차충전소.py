@@ -9,7 +9,7 @@ from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 
 # 전기차 충전소 API URL
-url = 'http://apis.data.go.kr/B552584/EvCharger/getChargerInfo'
+url = ''
 
 # 서울특별시 구 이름과 코드 매핑
 gu_code_mapping = {
@@ -43,7 +43,7 @@ gu_code_mapping = {
 # 전기차 충전소 정보 조회 함수
 def get_charger_data(gu_code):
     params = {
-        'serviceKey': 'F2T8H+e5AtyrEGhN1h9WVc2vf92jzERErsq7S97z1iCzQna2FGFWRRj5BgkqNnYXifuOz/BSH2TAqHtpchBK6w==',  # 자신의 서비스 키로 교체
+        'serviceKey': '',  # 자신의 서비스 키로 교체
         'pageNo': '1',
         'numOfRows': '100',
         'dataType': 'xml',
