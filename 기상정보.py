@@ -11,9 +11,9 @@
 
 # # 기상 데이터 조회 함수
 # def get_weather_data(district):
-#     url = 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0'  # 기상 API 엔드포인트
+#     url = '  # 기상 API 엔드포인트
 #     params = {
-#         'key': 'F2T8H+e5AtyrEGhN1h9WVc2vf92jzERErsq7S97z1iCzQna2FGFWRRj5BgkqNnYXifuOz/BSH2TAqHtpchBK6w==',  # 기상 API 키
+#         'key': '',  # 기상 API 키
 #         'q': district,  # 사용자가 입력한 구
 #         'lang': 'ko'
 #     }
@@ -82,11 +82,11 @@ from langchain_community.chat_models import ChatOllama
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnableMap
 
-key = 'F2T8H+e5AtyrEGhN1h9WVc2vf92jzERErsq7S97z1iCzQna2FGFWRRj5BgkqNnYXifuOz/BSH2TAqHtpchBK6w=='
+key = '
 
 # 기상 데이터 조회 함수
 def get_weather_data(sido, key):
-    url = 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst'
+    url = ''
     params = {
         'serviceKey': key,
         'pageNo': '1',
