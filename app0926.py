@@ -9,10 +9,10 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnableMap
 
 # Replace this with your actual API key
-key = 'F2T8H+e5AtyrEGhN1h9WVc2vf92jzERErsq7S97z1iCzQna2FGFWRRj5BgkqNnYXifuOz/BSH2TAqHtpchBK6w=='  # Use an environment variable or secure method in production
+key = '  # Use an environment variable or secure method in production
 
 def seoul_pm_query(sido, key):
-    url = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty'
+    url = ''
     params = {
         'serviceKey': key,
         'returnType': 'json',
